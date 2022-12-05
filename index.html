@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/styles/base.css">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <title>Hướng dẫn sử dụng</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <Header class="header">
+        <!-- Top nav ( Announcement ) -->
+        <div class="annouce">
+           <div class="annouce_container">
+            <span>HƯỚNG DẪN SỬ DỤNG PHẦN MỀM QUẢN LÝ NHÀ SÁCH N.P.A</span>
+           </div>
+        </div>
+       
+        <div class="navbar_container">
+          <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Tài khoản
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="#login">Đăng nhập</a></li>
+              <li><a href="#forget_pass">Quên mật khẩu</a></li>
+              <li><a href="#change_pass">Đổi mật khẩu</a></li>
+            </ul>
+          </div>
+              <button class="btn btn-primary" type="button" >
+                <a href="#report">Thống kê</a>
+              </button>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Quản lý hóa đơn
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#create_voice">Tạo hóa đơn</a></li>
+                  <li><a href="#voice_quene">Hóa đơn chờ</a></li>
+                  <li><a href="#manage_voice">Quản lý hóa đơn</a></li>
+
+                 
+                 
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Quản lý 
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#manage_emp">Quản lý nhân viên</a></li>
+                  <li><a href="#manage_cus">Quản lý khách hàng</a></li>
+                 
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Quản lý sản phẩm
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#add_product">Thêm sản phẩm</a></li>
+                  <li><a href="#manage_categories_book">Quản lý danh mục sách</a></li>
+                  <li><a href="#manage_categories">Quản lý danh mục văn phòng phẩm </a></li>
+                  <li><a href="#change_product">Đổi trả sản phẩm</a></li>
+                 
+                </ul>
+              </div>
+              
+          
+        </div>
+    </Header>
+    <div class="content">
+      <div class="container_view">
+      
+       <!-- Login  -->
+        <div class="item_content" id="login" >
+          <div class="title">
+            <span>CHỨC NĂNG ĐĂNG NHẬP</span>
+          </div>
+          <div class="image_item">
+            <img src="./assets/images/login.png" alt="phim mới" >
+          </div>
+          <div class="description">
+            <h2>Đăng nhập</h2>
+            <div class="des_detail">
+              <span> 
+                Bước 1: Nhập tên đăng nhập
+               
+              </span>
+              <span>
+                  Bước 2: Nhập mật khẩu của tài khoản
+  
+                </span>
+                <span>
+                  Bước 3: Bấm nút đăng nhập
+  
+                </span>
+            </div>
+           
+          </div>
+
+        </div>
+        <!-- Forget pass -->
+        <div class="item_content" id="forget_pass" >
+          <div class="title">
+            <span>CHỨC NĂNG QUÊN MẬT KHẨU</span>
+          </div>
+          <div class="image_item">
+            <img src="./assets/images/forget_pass.png" alt="Quên mật khẩu" >
+          </div>
+          <div class="description">
+            <h2>Quên mật khẩu</h2>
+            <div class="des_detail">
+             
+              <span> Bước 1: Nhập email </span> 
+              <span> Bước 2: Bấm nhận OTP </span>
+              <span> 
+                Bước 3: lấy mã OTP được gửi đến email </span>
+                <span> 
+                  Bước 4: Nhập mã OTP vào ô nhập mã OTP</span>
+                  <span> 
+                    Bước 5: Bấm nút kiểm tra</span>
+                    <span> 
+                      Bước 6: Nếu mã OTP đúng thì nhập mật khẩu mới</span>
+                      <span> 
+                        Bước 7: Nhập lại mật khẩu mới</span>
+                        <span> 
+                          Bước 8: Bấm nút đổi mật khẩu </span>
+                          </div>
+                        
+                        </div>
+                      </div>
+                      <!-- Change pass -->
+         <div class="item_content" id="change_pass" >
+          <div class="title">
+            <span>CHỨC NĂNG ĐỔI MẬT KHẨU</span>
+          </div>
+          <div class="image_item">
+            <img src="./assets/images/change_pass.png" alt="Đổi mật khẩu" >
+          </div>
+          <div class="description">
+            <h2>Đổi mật khẩu</h2>
+            <div class="des_detail">
+              <span> Bước 1: Nhập mật khẩu cũ </span> 
+              <span> Bước 2: Nhập mật khẩu mới </span>
+              <span> Bước 3: Nhấn nút đổi </span>
+            </div>
+          </div>
+        <!--Manage employee   -->
+        <div class="item_content" id="manage_emp" >
+          <div class="title">
+            <span>CHỨC NĂNG QUẢN LÝ NHÂN VIÊN</span>
+          </div>
+          <div class="image_item">
+            <img src="./assets/images/qlnv.png" alt="Quản lý nhân viên" >
+          </div>
+          <div class="description">
+            <h2>Thêm nhân viên</h2>
+            <div class="des_detail">
+          <span>  Bước 1: Bấm nút thêm</span> 
+          <span> Bước 2: Nhập thông tin nhân viên </span>
+          <span> Bước 3: Bấm lưu</span>
+          <span>  Bước 4: Nhập thông tin tài khoản cho nhân viên đó</span>
+          <span>  Bước 5: Bấm xác nhận tạo thành công</span>
+            </div>
+            <h2>Cập nhật nhân viên</h2>
+            <div class="des_detail">
+          <span> Bước 1: Chọn nhân viên cần cập nhật
+          </span> 
+          <span> Bước 2: Bấm cập nhật
+          </span>
+          <span> Bước 3: Cập nhật lại thông tin nhân viên
+           </span>
+          <span>  Bước 4: Bấm nút lưu
+          </span>
+            </div>
+            <h2>Tìm nhân viên</h2>
+            <div class="des_detail">
+          <span> Bước 1: Bấm nút tìm
+          </span> 
+          <span> Bước 2: Nhập số điện thoại hoặc tên nhân viên
+          </span>
+        
+          <span>  Bước 3: Bấm nút tìm
+          </span>
+        
+
+
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="item_content" id="manage_cus" >
+          <div class="title">
+            <span>CHỨC NĂNG QUẢN LÝ KHÁCH HÀNG</span>
+          </div>
+          <div class="image_item">
+            <img src="./assets/images/qlkh.png" alt="Quản lý khách hàng" >
+          </div>
+          <div class="description">
+            <h2>Thêm khách hàng</h2>
+            <div class="des_detail">
+          <span>  Bước 1: Bấm nút thêm khách hàng</span> 
+          <span> Bước 2: Nhập thông tin khách hàng </span>
+          <span> Bước 3: Bấm lưu</span>
+         
+            </div>
+            <h2>Cập nhật khách hàng</h2>
+            <div class="des_detail">
+          <span> Bước 1: Chọn khách hàng cần cập nhật
+          </span> 
+          <span> Bước 2: Bấm nút cập nhật khách hàng </span>
+          <span> Bước 3:Cập nhật lại thông tin khách hàng
+           </span>
+          <span>  Bước 4: Bấm nút lưu
+          </span>
+            </div>
+            <h2>Tìm khách hàng</h2>
+            <div class="des_detail">
+          <span> Bước 1: Bấm nút tìm
+          </span> 
+          <span> Bước 2: Nhập số điện thoại hoặc tên khách hàng
+          </span>
+          <span>  Bước 3: Bấm nút tìm
+          </span>
+            </div>
+          </div>
+        </div>
+        <!--  Manage product -->
+        <div class="item_content" id="add_product" >
+          <div class="title">
+            <span>CHỨC NĂNG QUẢN LÝ SẢN PHẨM</span>
+          </div>
+          <div class="image_item">
+            <img src="./assets/images/qlsp.png" alt="Quản lý sản phẩm" >
+          </div>
+          <div class="description">
+            <h2>Thêm sản phẩm</h2>
+            <div class="des_detail">
+          <span>  Bước 1: Bấm nút thêm sản phẩm</span> 
+          <span> Bước 2: Chọn loại sản phẩm cần thêm là sách hay văn phòng phẩm</span>
+          <span> Bước 3: Nhập thông tin sản phẩm</span>
+          <span> Bước 4:Bấm thêm sản phẩm
+          </span>
+            </div>
+            <h2>Cập nhật sản phẩm</h2>
+            <div class="des_detail">
+          <span> Bước 1: Chọn sản phẩm cần cập nhật thông tin
+          </span> 
+          <span> Bước 2: Bấm nút cập nhật sản phẩm </span>
+          <span> Bước 3: Nhập lại thông tin sản phẩm
+           </span>
+          <span>  Bước 4: Bấm cập nhật sản phẩm
+          </span>
+            </div>
+            <h2>Xem chi tiết sản phẩm</h2>
+            <div class="des_detail">
+          <span> Bước 1: Chọn sản phẩm cần xem thông tin chi tiết  </span> 
+          <span> Bước 2: Bấm nút xem chi tiết
+          </span>
+         
+            </div>
+            <h2>Import File
+            </h2>
+            <div class="des_detail">
+          <span> Bước 1: Chọn loại sản phẩm import vào là sách hay văn phòng phẩm
+          </span> 
+          <span> Bước 2: Bấm chọn import
+          </span>
+          <span>Bước 3:  Chọn file sản phẩm cần import
+          </span>
+          <span>Bước 4: Bấm chọn file</span>
+         
+            </div>
+            <h2>Xuất File
+            </h2>
+            <div class="des_detail">
+          <span> Bước 1: Bấm chọn Xuất file  </span> 
+          <span> Bước 2:  Nhập tên và địa chỉ file cần xuất
+
+          </span>
+        
+          <span>Bước 3: Bấm chọn file</span>
+         
+            </div>
+            <h2>Tìm kiếm
+            </h2>
+            <div class="des_detail">
+          <span> Bước 1:  Nhập thông tin cần tìm ở bộ lọc   </span> 
+          <span> Bước 2:   Bấm tìm
+
+          </span>
+            </div>
+          </div>
+        </div>
+        <!-- Manage categories  -->
+        <div class="item_content" id="manage_categories_book" >
+          <div class="title">
+            <span>CHỨC NĂNG QUẢN LÝ DANH MỤC SÁCH</span>
+          </div>
+          <div class="image_item">
+            <img src="./assets/images/qldm.png" alt="Quản lý sản phẩm" >
+          </div>
+          <div class="description">
+            <h2>Thêm danh mục</h2>
+            <div class="des_detail">
+          <span>  Bước 1: Chọn loại danh mục cần thêm</span> 
+          <span>Bước 2: Bấm nút thêm</span>
+          <span>Bước 3: Nhập thông tin sản phẩm</span>
+          <span> Bước 4:  Bấm xác nhận
+          </span>
+            </div>
+           
+          </div>
+        </div>
+        <!--  -->
+        <div class="item_content" id="manage_categories_vpp" >
+          <div class="title">
+            <span>CHỨC NĂNG QUẢN LÝ DANH MỤC VPP</span>
+          </div>
+          <div class="image_item">
+            <img src="./assets/images/qldmvpp.png" alt="Quản lý sản phẩm" >
+          </div>
+          <div class="description">
+            <h2>Thêm danh mục</h2>
+            <div class="des_detail">
+          <span>Bước 1: Chọn loại danh mục cần thêm</span> 
+          <span>Bước 2: Bấm nút thêm</span>
+          <span>Bước 3: Nhập thông tin sản phẩm</span>
+          <span>Bước 4:  Bấm xác nhận
+          </span>
+            </div>
+           
+          </div>
+        </div>
+        <div class="item_content" id="change_product" >
+          <div class="title">
+            <span>CHỨC NĂNG ĐỔI TRẢ SẢN PHẨM</span>
+          </div>
+          <div class="image_item">
+            <img src="./assets/images/doi_tra.png" alt="Đổi trả sản phẩm" >
+          </div>
+          <div class="description">
+            <h2>Đổi trả sản phẩm</h2>
+            <div class="des_detail">
+          <span>  Bước 1: Nhập mã hóa đơn vào</span> 
+          <span>Bước 2: Bấm nút kiểm tra</span>
+          <span>Bước 3: Chọn sản phẩm trong hóa đơn cần đổi
+          </span>
+          <span> Bước 4: Nhập lỗi sản phẩm
+          </span>
+          <span> Bước 4: Nhập số lượng lỗi
+          </span>
+          <span> Bước 5: Nhập số lượng lỗi
+          </span>
+          <span> Bước 6: Chọn sản phẩm đổi lấy (giá trị sản phẩm đổi lớn hơn hoặc bằng)
+          </span>
+          <span> Bước 7: Nhập tiền khách trả
+          </span>
+          <span> Bước 8: Bấm thanh toán
+
+          </span>
+            </div>
+           
+          </div>
+        </div>
+        <!-- Manage voice-->
+        <div class="item_content" id="create_voice" >
+          <div class="title">
+            <span>CHỨC NĂNG TẠO HÓA ĐƠN MỚI</span>
+          </div>
+          <div class="image_item">
+            <img src="./assets/images/lapHD.png" alt="Quản lý sản phẩm" >
+          </div>
+          <div class="description">
+            <h2>Thanh toán</h2>
+            <div class="des_detail">
+          <span>  Bước 1: Chọn sản phẩm cần thanh toán</span> 
+          <span> Bước 2: Nhập số điện thoại khách hàng</span>
+          <span> Bước 3: Bấm tìm -> load thông tin khách hàng
+          </span>
+          <span> Bước 4: nhập tiền khách đưa
+          </span>
+          <span> Bước 4: nhập tiền khách đưa
+          </span>
+          <span> Bước 5: bấm nút thanh toán
+          </span>
+          <h2>Hàng chờ</h2>
+          <div class="des_detail">
+        <span>  Bước 1:  Bấm vào hàng chờ
+        </span> 
+        <span> Bước 2: Nhập số điện thoại khách hàng</span>
+        <span> Bước 3:  Bấm tìm -> load thông tin khách hàng
+
+        </span>
+        <span> Bước 4: Bấm thêm hàng chờ
+        </span>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      <div class="item_content" id="voice_quene" >
+        <div class="title">
+          <span>CHỨC NĂNG HÓA ĐƠN CHỜ</span>
+        </div>
+        <div class="image_item">
+          <img src="./assets/images/HDCho.png" alt="Quản lý sản phẩm" >
+        </div>
+        <div class="description">
+          <h2>Thanh toán tiếp tục</h2>
+          <div class="des_detail">
+        <span>  Bước 1:  Chọn khách hàng cần thanh toán tiếp
+        </span> 
+        <span> Bước 2: Bấm nút thanh toán tiếp</span>
+       
+        <h2>Xóa hàng chờ</h2>
+        <div class="des_detail">
+      <span>  Bước 1: Chọn khách hàng cần thanh toán tiếp
+
+      </span> 
+      <span> Bước 2: Bấm nút xóa hàng chờ -> table khách hàng sẽ bị xóa dòng chọn xóa
+      </span>
+      
+     
+          </div>
+         
+        </div>
+      </div>
+    </div>
+    <div class="item_content" id="manage_voice" >
+      <div class="title">
+        <span>CHỨC NĂNG QUẢN LÝ HÓA ĐƠN</span>
+      </div>
+      <div class="image_item">
+        <img src="./assets/images/QLHD.png" alt="Quản lý sản phẩm" >
+      </div>
+      <div class="description">
+        <h2>Hiển thị danh sách hóa đơn</h2>
+        <div class="des_detail">
+          Bước 1: Chọn loại hóa đơn, hệ thống tự động hiển thị danh sách hóa đơn.
+        </div>
+      <h2>Tìm kiếm hóa đơn
+      </h2>
+      <div class="des_detail">
+    <span>  Bước 1: Chọn loại hóa đơn cần tìm.
+    </span> 
+    <span> Bước 2: Nhập thông tin của hóa đơn cần tìm kiếm, có thể tìm theo mã, theo tên nhân viên, theo số điện thoại, hoặc tên khách hàng.
+    </span>
+    <span> Bước 3: Nhấn nút tìm kiếm.
+
+
+    </span>
+ 
+
+        </div>
+        <h2>Xem chi tiết hóa đơn
+        </h2>
+        <div class="des_detail">
+          <span>   Bước 1: Chọn dòng hóa đơn cần xem chi tiết
+          </span> 
+          <span>  Bước 2: Nhấn nút xem chi tiết.
+          </span>
+              </div>
+         </div>
+    </div>
+         </div>
+        <!--Manage employee   -->
+        <div class="item_content" id="manage_emp" >
+          <div class="title">
+            <span>CHỨC NĂNG QUẢN LÝ NHÂN VIÊN</span>
+          </div>
+          <div class="image_item">
+            <img src="./assets/images/qlnv.png" alt="Quản lý nhân viên" >
+          </div>
+          <div class="description">
+            <h2>Thêm nhân viên</h2>
+            <div class="des_detail">
+          <span>  Bước 1: Bấm nút thêm</span> 
+          <span> Bước 2: Nhập thông tin nhân viên </span>
+          <span> Bước 3: Bấm lưu</span>
+          <span>  Bước 4: Nhập thông tin tài khoản cho nhân viên đó</span>
+          <span>  Bước 5: Bấm xác nhận tạo thành công</span>
+            </div>
+            <h2>Cập nhật nhân viên</h2>
+            <div class="des_detail">
+          <span> Bước 1: Chọn nhân viên cần cập nhật
+          </span> 
+          <span> Bước 2: Bấm cập nhật
+          </span>
+          <span> Bước 3: Cập nhật lại thông tin nhân viên
+           </span>
+          <span>  Bước 4: Bấm nút lưu
+          </span>
+            </div>
+            <h2>Tìm nhân viên</h2>
+            <div class="des_detail">
+          <span> Bước 1: Bấm nút tìm
+          </span> 
+          <span> Bước 2: Nhập số điện thoại hoặc tên nhân viên
+          </span>
+        
+          <span>  Bước 3: Bấm nút tìm
+          </span>
+        
+
+
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="item_content" id="manage_cus" >
+          <div class="title">
+            <span>CHỨC NĂNG QUẢN LÝ KHÁCH HÀNG</span>
+          </div>
+          <div class="image_item">
+            <img src="./assets/images/qlkh.png" alt="Quản lý khách hàng" >
+          </div>
+          <div class="description">
+            <h2>Thêm khách hàng</h2>
+            <div class="des_detail">
+          <span>  Bước 1: Bấm nút thêm khách hàng</span> 
+          <span> Bước 2: Nhập thông tin khách hàng </span>
+          <span> Bước 3: Bấm lưu</span>
+         
+            </div>
+            <h2>Cập nhật khách hàng</h2>
+            <div class="des_detail">
+          <span> Bước 1: Chọn khách hàng cần cập nhật
+          </span> 
+          <span> Bước 2: Bấm nút cập nhật khách hàng </span>
+          <span> Bước 3:Cập nhật lại thông tin khách hàng
+           </span>
+          <span>  Bước 4: Bấm nút lưu
+          </span>
+            </div>
+            <h2>Tìm khách hàng</h2>
+            <div class="des_detail">
+          <span> Bước 1: Bấm nút tìm
+          </span> 
+          <span> Bước 2: Nhập số điện thoại hoặc tên khách hàng
+          </span>
+          <span>  Bước 3: Bấm nút tìm
+          </span>
+            </div>
+          </div>
+        </div>
+        <!--  Manage product -->
+        <div class="item_content" id="add_product" >
+          <div class="title">
+            <span>CHỨC NĂNG QUẢN LÝ SẢN PHẨM</span>
+          </div>
+          <div class="image_item">
+            <img src="./assets/images/qlsp.png" alt="Quản lý sản phẩm" >
+          </div>
+          <div class="description">
+            <h2>Thêm sản phẩm</h2>
+            <div class="des_detail">
+          <span>  Bước 1: Bấm nút thêm sản phẩm</span> 
+          <span> Bước 2: Chọn loại sản phẩm cần thêm là sách hay văn phòng phẩm</span>
+          <span> Bước 3: Nhập thông tin sản phẩm</span>
+          <span> Bước 4:Bấm thêm sản phẩm
+          </span>
+            </div>
+            <h2>Cập nhật sản phẩm</h2>
+            <div class="des_detail">
+          <span> Bước 1: Chọn sản phẩm cần cập nhật thông tin
+          </span> 
+          <span> Bước 2: Bấm nút cập nhật sản phẩm </span>
+          <span> Bước 3: Nhập lại thông tin sản phẩm
+           </span>
+          <span>  Bước 4: Bấm cập nhật sản phẩm
+          </span>
+            </div>
+            <h2>Xem chi tiết sản phẩm</h2>
+            <div class="des_detail">
+          <span> Bước 1: Chọn sản phẩm cần xem thông tin chi tiết  </span> 
+          <span> Bước 2: Bấm nút xem chi tiết
+          </span>
+         
+            </div>
+            <h2>Import File
+            </h2>
+            <div class="des_detail">
+          <span> Bước 1: Chọn loại sản phẩm import vào là sách hay văn phòng phẩm
+          </span> 
+          <span> Bước 2: Bấm chọn import
+          </span>
+          <span>Bước 3:  Chọn file sản phẩm cần import
+          </span>
+          <span>Bước 4: Bấm chọn file</span>
+         
+            </div>
+            <h2>Xuất File
+            </h2>
+            <div class="des_detail">
+          <span> Bước 1: Bấm chọn Xuất file  </span> 
+          <span> Bước 2:  Nhập tên và địa chỉ file cần xuất
+
+          </span>
+        
+          <span>Bước 3: Bấm chọn file</span>
+         
+            </div>
+            <h2>Tìm kiếm
+            </h2>
+            <div class="des_detail">
+          <span> Bước 1:  Nhập thông tin cần tìm ở bộ lọc   </span> 
+          <span> Bước 2:   Bấm tìm
+
+          </span>
+            </div>
+          </div>
+        </div>
+        <!-- Manage categories  -->
+        <div class="item_content" id="manage_categories_book" >
+          <div class="title">
+            <span>CHỨC NĂNG QUẢN LÝ DANH MỤC SÁCH</span>
+          </div>
+          <div class="image_item">
+            <img src="./assets/images/qldm.png" alt="Quản lý sản phẩm" >
+          </div>
+          <div class="description">
+            <h2>Thêm danh mục</h2>
+            <div class="des_detail">
+          <span>  Bước 1: Chọn loại danh mục cần thêm</span> 
+          <span>Bước 2: Bấm nút thêm</span>
+          <span>Bước 3: Nhập thông tin sản phẩm</span>
+          <span> Bước 4:  Bấm xác nhận
+          </span>
+            </div>
+           
+          </div>
+        </div>
+        <!--  -->
+        <div class="item_content" id="manage_categories_vpp" >
+          <div class="title">
+            <span>CHỨC NĂNG QUẢN LÝ DANH MỤC VPP</span>
+          </div>
+          <div class="image_item">
+            <img src="./assets/images/qldmvpp.png" alt="Quản lý sản phẩm" >
+          </div>
+          <div class="description">
+            <h2>Thêm danh mục</h2>
+            <div class="des_detail">
+          <span>Bước 1: Chọn loại danh mục cần thêm</span> 
+          <span>Bước 2: Bấm nút thêm</span>
+          <span>Bước 3: Nhập thông tin sản phẩm</span>
+          <span>Bước 4:  Bấm xác nhận
+          </span>
+            </div>
+           
+          </div>
+        </div>
+        <div class="item_content" id="change_product" >
+          <div class="title">
+            <span>CHỨC NĂNG ĐỔI TRẢ SẢN PHẨM</span>
+          </div>
+          <div class="image_item">
+            <img src="./assets/images/doi_tra.png" alt="Đổi trả sản phẩm" >
+          </div>
+          <div class="description">
+            <h2>Đổi trả sản phẩm</h2>
+            <div class="des_detail">
+          <span>  Bước 1: Nhập mã hóa đơn vào</span> 
+          <span>Bước 2: Bấm nút kiểm tra</span>
+          <span>Bước 3: Chọn sản phẩm trong hóa đơn cần đổi
+          </span>
+          <span> Bước 4: Nhập lỗi sản phẩm
+          </span>
+          <span> Bước 4: Nhập số lượng lỗi
+          </span>
+          <span> Bước 5: Nhập số lượng lỗi
+          </span>
+          <span> Bước 6: Chọn sản phẩm đổi lấy (giá trị sản phẩm đổi lớn hơn hoặc bằng)
+          </span>
+          <span> Bước 7: Nhập tiền khách trả
+          </span>
+          <span> Bước 8: Bấm thanh toán
+
+          </span>
+            </div>
+           
+          </div>
+        </div>
+        <!-- Manage voice-->
+        <div class="item_content" id="create_voice" >
+          <div class="title">
+            <span>CHỨC NĂNG TẠO HÓA ĐƠN MỚI</span>
+          </div>
+          <div class="image_item">
+            <img src="./assets/images/lapHD.png" alt="Quản lý sản phẩm" >
+          </div>
+          <div class="description">
+            <h2>Thanh toán</h2>
+            <div class="des_detail">
+          <span>  Bước 1: Chọn sản phẩm cần thanh toán</span> 
+          <span> Bước 2: Nhập số điện thoại khách hàng</span>
+          <span> Bước 3: Bấm tìm -> load thông tin khách hàng
+          </span>
+          <span> Bước 4: nhập tiền khách đưa
+          </span>
+          <span> Bước 4: nhập tiền khách đưa
+          </span>
+          <span> Bước 5: bấm nút thanh toán
+          </span>
+          <h2>Hàng chờ</h2>
+          <div class="des_detail">
+        <span>  Bước 1:  Bấm vào hàng chờ
+        </span> 
+        <span> Bước 2: Nhập số điện thoại khách hàng</span>
+        <span> Bước 3:  Bấm tìm -> load thông tin khách hàng
+
+        </span>
+        <span> Bước 4: Bấm thêm hàng chờ
+        </span>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      <div class="item_content" id="voice_quene" >
+        <div class="title">
+          <span>CHỨC NĂNG HÓA ĐƠN CHỜ</span>
+        </div>
+        <div class="image_item">
+          <img src="./assets/images/HDCho.png" alt="Quản lý sản phẩm" >
+        </div>
+        <div class="description">
+          <h2>Thanh toán tiếp tục</h2>
+          <div class="des_detail">
+        <span>  Bước 1:  Chọn khách hàng cần thanh toán tiếp
+        </span> 
+        <span> Bước 2: Bấm nút thanh toán tiếp</span>
+       
+        <h2>Xóa hàng chờ</h2>
+        <div class="des_detail">
+      <span>  Bước 1: Chọn khách hàng cần thanh toán tiếp
+
+      </span> 
+      <span> Bước 2: Bấm nút xóa hàng chờ -> table khách hàng sẽ bị xóa dòng chọn xóa
+      </span>
+      
+     
+          </div>
+         
+        </div>
+      </div>
+    </div>
+    <div class="item_content" id="manage_voice" >
+      <div class="title">
+        <span>CHỨC NĂNG QUẢN LÝ HÓA ĐƠN</span>
+      </div>
+      <div class="image_item">
+        <img src="./assets/images/QLHD.png" alt="Quản lý sản phẩm" >
+      </div>
+      <div class="description">
+        <h2>Hiển thị danh sách hóa đơn</h2>
+        <div class="des_detail">
+          Bước 1: Chọn loại hóa đơn, hệ thống tự động hiển thị danh sách hóa đơn.
+        </div>
+      <h2>Tìm kiếm hóa đơn
+      </h2>
+      <div class="des_detail">
+    <span>  Bước 1: Chọn loại hóa đơn cần tìm.
+    </span> 
+    <span> Bước 2: Nhập thông tin của hóa đơn cần tìm kiếm, có thể tìm theo mã, theo tên nhân viên, theo số điện thoại, hoặc tên khách hàng.
+    </span>
+    <span> Bước 3: Nhấn nút tìm kiếm.
+
+
+    </span>
+ 
+
+        </div>
+        <h2>Xem chi tiết hóa đơn
+        </h2>
+        <div class="des_detail">
+          <span>   Bước 1: Chọn dòng hóa đơn cần xem chi tiết
+          </span> 
+          <span>  Bước 2: Nhấn nút xem chi tiết.
+          </span>
+              </div>
+       
+       
+       
+      </div>
+    </div>
+       
+         
+      <!-- report -->
+      <div class="item_content" id="report" >
+        <div class="title">
+          <span>CHỨC NĂNG THỐNG KÊ</span>
+        </div>
+        <div class="image_item">
+          <img src="./assets/images/thong_ke.png" alt="Quản lý sản phẩm" >
+        </div>
+        <div class="description">
+          <h2>Thống kê</h2>
+          <div class="des_detail">
+        <span>  Bước 1: Chọn chỉ tiêu cần thống kê</span> 
+        <span> Bước 2: Chọn mốc thời gian thống kê
+        </span>
+        <span> Bước 3: Nhấn nút lọc
+        </span>
+        
+       
+         
+        </div>
+      </div>
+    </div>
+    </div>
+</body>
+</html>
